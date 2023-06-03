@@ -30,7 +30,7 @@ $(".button").on("click", (e) => {
                 string = string.slice(0, -1);
                 display.text(string);
             }
-            break;
+            // break;
         default:
             string += e.target.innerText;
             display.text(string);
