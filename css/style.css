@@ -1,0 +1,41 @@
+.container{
+    width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+.button{
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.equal{
+    background-color: blue;
+    color: white;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
